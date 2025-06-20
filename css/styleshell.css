@@ -56,7 +56,7 @@ a {
 #switch button {
     width: 32px; /* Define a largura do botão*/
     height: 32px; /* Define a altura do botão */
-    background: white url(../moon-stars.svg) no-repeat center; /* Define a cor de fundo do botão*/
+    background: white url(../css/moon-stars.svg) no-repeat center; /* Define a cor de fundo do botão*/
     border: 0; /* Remove a borda padrão do botão*/
     border-radius: 50%; /* Faz o botão circular*/
     position: absolute; /* Permite posicionar o botão dentro do switch */
@@ -69,7 +69,7 @@ a {
 
 .light #switch button {
     animation: slide-in 0.2s forwards; /* Adiciona uma animação para o botão de modo claro */
-    background: white url(../sun.svg) no-repeat center; /* Altera o icone de fundo para um sol no modo claro */
+    background: white url(../css/sun.svg) no-repeat center; /* Altera o icone de fundo para um sol no modo claro */
 }
 
 #switch button:hover {
