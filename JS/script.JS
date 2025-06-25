@@ -3,12 +3,12 @@ function toggleMode(){
     html.classList.toggle("light");
 
 
-    const jpg = document.querySelector("#profile jpg");
+    const jpg = document.querySelector("#profile img");
 
 
     if(html.classList.contains("light")){
-        jpg.setAttribute("src","./avatar2.jpg");
+        jpg.setAttribute("src","../jpg/eu2.jpg");
     }else {
-        jpg.setAttribute("src","./avatar1.jfif");
+        jpg.setAttribute("src","../jpg/Eu.jpg");
     }
 }

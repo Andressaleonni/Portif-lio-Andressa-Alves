@@ -7,7 +7,7 @@
 
 body {
     background: url(../jpg/bg-mobile.jpg) no-repeat top center/cover; /*Define a imaagem de fundo e ajusta sua posição e tamanho*/
-    height: 100vh; /*Define a altura do corpo como 100% da altura da janela de visualição */
+    height: 150vh; /*Define a altura do corpo como 100% da altura da janela de visualição */
 }
 
 body * {
@@ -35,8 +35,8 @@ a {
     padding: 24px; /*Adiciona  preenchimento interno*/
 }
 
-#profile jpg {
-    width: 112px; /*Define a  largura da imagem do perfil*/
+#profile img {
+    width: 250px; /*Define a  largura da imagem do perfil*/
 }
 
 #profile p {
@@ -169,12 +169,16 @@ footer {
 .profile-foto {
     border-radius: 50%; /* Torna a foto de perfil circular*/
     border: 3px solid purple; /* Define a borda da foto de perfil com a cor laranja*/
-    width: 350px;
+    /*width: 350px;*/
 
 }
 
 .light .profile-foto {
     border: 3px solid purple; /* Altera a cor da borda da foto de perfil para roxo*/
+}
+
+.light body {
+     background: url(../jpg/bg-mobile-light.jpg) no-repeat top center/cover; /* Altera o fundo do corpo para desktop no modo claro*/
 }
 
 /* Estilo para modo claro*/
